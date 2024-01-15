@@ -1,0 +1,21 @@
+.first {
+    color: #3287cd;
+    background-color: #cbddec;
+    border: none;
+    margin:20px,0 20px;
+}
+
+.second {
+    color: #cf8bf1;
+    font-size: 40px;
+}
+
+.third {
+    padding-left: 0;
+}
+
+li {
+    font-size: 22px;
+    list-style-type: none;    
+}
+

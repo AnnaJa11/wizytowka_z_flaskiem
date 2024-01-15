@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Base Layout</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+ </head>
+
+ <body>
+    {% block content %}
+      <h1 class="first">Hello from the main page.</h1>
+    {% endblock %}
+    <img src="{{url_for('static',filename='photo1.webp')}}" />
+    {% block test %}
+    <h2 class="second">HOME --- My motto</h2>
+    {% endblock %}
+    <p>'Experience is making mistakes and learning from them. ' – Bill Ackman.</p>
+
+
+ </body>
+
+<html>
